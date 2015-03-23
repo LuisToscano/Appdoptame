@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `mydb`.`ci_sessions` (
+CREATE TABLE IF NOT EXISTS `ci_sessions` (
   `session_id` VARCHAR(40) NOT NULL DEFAULT '0',
   `ip_address` VARCHAR(45) NOT NULL DEFAULT '0',
   `user_agent` VARCHAR(120) NOT NULL,
